@@ -1,6 +1,6 @@
 ## Personal Portfolio
 
-![Portfolio Website](https://avshetty1980.github.io/Portfolio-AWS/)
+![Portfolio Website](https://avshetty1980.github.io/Portfolio-AWS/.png)
 
 Edit portfolio in Constants folder
 
