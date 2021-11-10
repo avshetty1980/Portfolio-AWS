@@ -1,4 +1,5 @@
-const prefix = 'Portfolio-AWS';
+const prefix = '/Portfolio-AWS';
+
 export const projects = [
   {
     title: 'React web app on AWS Fargate',
