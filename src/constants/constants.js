@@ -1,3 +1,4 @@
+const prefix = 'Portfolio-AWS';
 export const projects = [
   {
     title: 'React web app on AWS Fargate',
@@ -9,7 +10,7 @@ export const projects = [
                   environments: CodePipeline. Approvals triggered SNS topic.\
                   Cross-account access to Dev, Prod, Test accounts\
                   Infrastructure creation: Terraform',
-    image: '/images/projects-3.jpg',
+    image: prefix + '/images/projects-3.jpg',
     tags: ['Networking', 'Containers', 'Terraform','Linux'],
     period: ' 12 Months',
     type: 'Freelance',
@@ -26,7 +27,7 @@ export const projects = [
                 CloudWatch Alarms for metrics of API gateway endpoint with Lambda to dynamically increase limit based on usage.\
                 Redshift was used as a datawarehouse for clickstream and user data info\
                 from DynamoDB and RDS",
-    image: '/images/projects-7.jpg',
+    image: prefix + '/images/projects-7.jpg',
     tags: ['Serverless', 'Security', 'NoSQL', 'SQL'],
     period: ' 18 Months',
     type: 'Freelance',
@@ -44,7 +45,7 @@ export const projects = [
                   ES for keyword searches and Kibana for dashboarding. \
                   Data Transformation with AWS Glue & AWS Lambda. \
                   Queuing: SQS and Orchestration with AWS Step Functions",
-    image: '/images/projects-9.jpg',
+    image: prefix + '/images/projects-9.jpg',
     tags: ['Automotive', 'ELK', 'Migration', 'Agile'],
     type: 'ZF',
     period: ' 18 Months',
